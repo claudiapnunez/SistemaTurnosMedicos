@@ -1,0 +1,25 @@
+@startuml 02-caso-uso-cancelar-turno-02
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Paciente" as PAC
+actor "Recepcionista" as REC
+actor "Sistema" as SIS
+
+rectangle "Sistema de Turnos Médicos" {
+  usecase "Cancelar Turno" as UC1
+  usecase "Verificar Política de Cancelación" as UC2
+  usecase "Liberar Horario en Agenda" as UC3
+  usecase "Enviar Notificación de Cancelación" as UC4
+  usecase "Registrar Motivo" as UC5
+  
+  PAC --> UC1
+  REC --> UC1
+  UC1 ..> UC2 : <<include>>
+  UC1 ..> UC3 : <<include>>
+  UC1 ..> UC4 : <<include>>
+  UC1 ..> UC5 : <<extend>>
+  SIS --> UC4
+}
+
+@enduml
