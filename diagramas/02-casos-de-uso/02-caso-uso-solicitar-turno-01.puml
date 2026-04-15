@@ -1,0 +1,25 @@
+@startuml 02-caso-uso-solicitar-turno-01
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Paciente" as PAC
+actor "Recepcionista" as REC
+actor "Sistema" as SIS
+
+rectangle "Sistema de Turnos Médicos" {
+  usecase "Solicitar Turno" as UC1
+  usecase "Verificar Disponibilidad" as UC2
+  usecase "Seleccionar Médico" as UC3
+  usecase "Confirmar Turno" as UC4
+  usecase "Enviar Notificación" as UC5
+  
+  PAC --> UC1
+  REC --> UC1
+  UC1 ..> UC2 : <<include>>
+  UC1 ..> UC3 : <<include>>
+  UC1 ..> UC4 : <<include>>
+  UC4 ..> UC5 : <<include>>
+  SIS --> UC5
+}
+
+@enduml
