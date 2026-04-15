@@ -1,0 +1,25 @@
+@startuml 02-caso-uso-gestionar-historia-clinica-05
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Medico" as MED
+actor "Sistema" as SIS
+
+rectangle "Sistema de Turnos Médicos" {
+  usecase "Gestionar Historia Clínica" as UC1
+  usecase "Consultar Historia Clínica" as UC2
+  usecase "Registrar Diagnóstico" as UC3
+  usecase "Registrar Tratamiento" as UC4
+  usecase "Adjuntar Estudios" as UC5
+  usecase "Guardar Registro" as UC6
+  
+  MED --> UC1
+  UC1 ..> UC2 : <<include>>
+  UC1 ..> UC6 : <<include>>
+  UC1 ..> UC3 : <<extend>>
+  UC1 ..> UC4 : <<extend>>
+  UC1 ..> UC5 : <<extend>>
+  SIS --> UC6
+}
+
+@enduml
