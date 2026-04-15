@@ -1,0 +1,25 @@
+@startuml 02-caso-uso-consultar-agenda-03
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Paciente" as PAC
+actor "Recepcionista" as REC
+actor "Medico" as MED
+
+rectangle "Sistema de Turnos Médicos" {
+  usecase "Consultar Agenda Médica" as UC1
+  usecase "Seleccionar Especialidad" as UC2
+  usecase "Seleccionar Fecha" as UC3
+  usecase "Mostrar Horarios Disponibles" as UC4
+  usecase "Filtrar por Obra Social" as UC5
+  
+  PAC --> UC1
+  REC --> UC1
+  MED --> UC1
+  UC1 ..> UC2 : <<include>>
+  UC1 ..> UC3 : <<include>>
+  UC1 ..> UC4 : <<include>>
+  UC1 ..> UC5 : <<extend>>
+}
+
+@enduml
