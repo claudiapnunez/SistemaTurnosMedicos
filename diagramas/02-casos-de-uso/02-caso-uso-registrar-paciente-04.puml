@@ -1,0 +1,23 @@
+@startuml 02-caso-uso-registrar-paciente-04
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Recepcionista" as REC
+actor "Sistema" as SIS
+
+rectangle "Sistema de Turnos Médicos" {
+  usecase "Registrar Paciente" as UC1
+  usecase "Verificar DNI no duplicado" as UC2
+  usecase "Registrar Datos Personales" as UC3
+  usecase "Asociar Obra Social" as UC4
+  usecase "Generar Ficha de Paciente" as UC5
+  
+  REC --> UC1
+  UC1 ..> UC2 : <<include>>
+  UC1 ..> UC3 : <<include>>
+  UC1 ..> UC4 : <<include>>
+  UC1 ..> UC5 : <<include>>
+  SIS --> UC5
+}
+
+@enduml
