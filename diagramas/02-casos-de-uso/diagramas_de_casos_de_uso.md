@@ -1,7 +1,26 @@
 # Diagramas de Casos de Uso
 
-- [Caso de Uso 1 - Solicitar Turno](02-caso-uso-solicitar-turno-01.puml)
-- [Caso de Uso 2 - Cancelar Turno](02-caso-uso-cancelar-turno-02.puml)
-- [Caso de Uso 3 - Consultar Agenda Médica](02-caso-uso-consultar-agenda-03.puml)
-- [Caso de Uso 4 - Registrar Paciente](02-caso-uso-registrar-paciente-04.puml)
-- [Caso de Uso 5 - Gestionar Historia Clínica](02-caso-uso-gestionar-historia-clinica-05.puml)
+## Caso de Uso 1 - Solicitar Turno
+- [Código PlantUML](02-caso-uso-solicitar-turno-01.puml)
+
+![Solicitar Turno](https://www.plantuml.com/plantuml/png/VP3FIWD138VlynIXznRwxoAbLDOUUb1ArtgFcMmDdPrPPhA2Y0_asKVeYycssx9LyPXy7xzVo28fHgrBPnmN2XeWokv5mKfaKWdUfBtu2YEMK27jSSUvlZc61gFVEJP86YBqraZ2Nha7c61zcvtt6oQkI8ANf7Y4c-K5vfAKozCwN-Ncadf1O1aUw-X3Wll3fnKAgGVl1g1EJ9WQCJWXKOmdxvYrpOPTvOcZ548OuKvI5RmyYnEBjdL7Lt7ic9fxCPuRMstSrRBW2udbZzP9LrdwLy483q6FvII7BzzwKmFDZw3VdxUtRfRTQPiDOJ1efX7Sm6mcdbnjUJw_OkD_sEGFDcdPz1VBLtdRFZKVPi7UrgNx1W00)
+
+## Caso de Uso 2 - Cancelar Turno
+- [Código PlantUML](02-caso-uso-cancelar-turno-02.puml)
+
+![Cancelar Turno](https://www.plantuml.com/plantuml/png/VP31Qi9048Rl-nH3xWeQlHGHso1KQ8iazG6caz4ERdR3xEPGIX-evpw2BrRKAB5AZ_D_7_yCCmiHDJQLDPRN4Q87bSrxX5AKAOft9cp5rQXOGOsqnGqNySCox36wZMM35Br2iaGITf4Jm03B--oKvqnSatWd8U81vlCpB2H4hevniIZCkVMCe6HuRTJv0C-xxrB8XmG-3K0Jc30m91awOejwr0vLgspGDHwQG7_uyAB1kxLeXGfj5ydknxLcsZLVV9Irq6rpr3MVv8qL5HwzeiffxTZ0_ZVGwqtR8_DvTrfb0-ZtzzCGxc0o4KUsANawlM3f3PQsRFGF6r-nOb6qsqVcoypObKrbVm40)
+
+## Caso de Uso 3 - Consultar Disponibilidad
+- [Código PlantUML](02-caso-uso-consultar-disponibilidad-03.puml)
+
+![Consultar Disponibilidad](https://www.plantuml.com/plantuml/png/VP1DQiD034RtSmhXVGBvMPKG4jmKiWWDcUO0oepgYendp4Y6bj83zHozMB7h1dVJfRxt-2Iq4SMiRHrCe6S5JP2vUb7mdCaffsZaoh71Z3KqwAvOaTMtGD1XZ5KWWqvJXkA8ZYag5O02nstvcv_8KUCuHHR57fvsDsXPbEgVsEwjkRNU47Y2fpR7973u-lJiaXJmRW1Q8OT2K9GfIXiKCzopD2doXGDxz7tfkPoDNKk1N7SCPjX9GuvnxCx7xY69PiomhIXw78p5s7ZWq1jDol1uoGWsTOM3kZJG_G4ca_Lmncatdixb3ARJRfh37QnM75reFQtNVzZY7xRi6RqgHTyZkxV3WeNvC1kAlgt3Dm00)
+
+## Caso de Uso 4 - Registrar Paciente
+- [Código PlantUML](02-caso-uso-registrar-paciente-04.puml)
+
+![Registrar Paciente](https://www.plantuml.com/plantuml/png/VO_FIiD048Vl-nH3xYqqwKbAASI2FOZIjTx7tMaSkjajinDGn0Vou5FqnIGnblRYyJVVD_zMML6qQuC9j5VG1CBDgu9d8QUSeia7ZaSKRE68xe0DMNqF13t6s0Gow3G955joT7IS8cV50Z33Tbt_GSjPgVqjsuqrv-up0a_mr4bC6UvFNvvToWLy680kayDC_OA6imeAFA9ZYah3k5qzkxIUINZF3WLkKViPWr9UAHZOey33Yo3Ov1Z3g5MNMYs40dUSDGaZrE7q7TdXgCuDz0_2PB8SJzZLCvXE-rJ23ImM75teF2sNLwpwXyq7HczAqG_8RkoueBnAbVaqAug-QyCF)
+
+## Caso de Uso 5 - Gestionar Historia Clínica
+- [Código PlantUML](02-caso-uso-gestionar-historia-clinica-05.puml)
+
+![Gestionar Historia Clínica](https://www.plantuml.com/plantuml/png/VP1DJiCm44RtFiKe-rRgJpQeYWgXWYug8K8FCBA7OEhObMSiWH07Oi4fUZ6KOggKHPSpx_cRJrwoO9JKEUNeMK02HDk-21WRIOiDNl7E-Zr6x62FUeSjDVBk27gCldMaK4k8K6mENyRgK00oR5QtV-l6ib27ntMpRjJftGc18NXAqGU6dC45V2Y0nAIH2OexuhuAHhYtB25QXDeTlhtLlxdRUZBKw-0vEHdesPeEhUisKeiH7gcrB35aPtRccDVa-w0LIpAsBtQKvaFf9h7620-eBNcXh9GA-c-0qQZA_RRr1CRZVfh25ImMrckN35NL6IiliDcHqPkGDndDCfh_HyswoRTBzQcMv4tgt0y0)
